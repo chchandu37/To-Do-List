@@ -1,0 +1,29 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: snow;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: wheat;
+    box-shadow: 0 2px 3px black ;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+}
+input{
+    padding: 5px;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+.delete{
+    cursor: pointer;
+    background-color: chocolate;
+    color: black;
+    border: none;
+    margin-left: 10px;
+}
